@@ -1,0 +1,86 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  margin-top: 0;
+  margin-left: 0;
+  min-height: 100vh;
+  font-size: 16px;
+  font-family: "Figtree";
+}
+
+
+
+.Card {
+  position: fixed;
+  max-width: 310px;
+  max-height: 478px;
+  margin: auto;
+  border: solid, 2px, hsl(0, 0%, 7%);
+  border-radius: 20px;
+  inset: 0;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  box-shadow: 8px 8px;
+  padding-bottom: 0px;
+}
+
+.main-img img {
+  width: 100%;
+  /* padding: 18px; */
+  border-radius: 15px;
+
+  margin: auto;
+  /* inset: 0; */
+  background-color: hsl(0, 0%, 100%);
+}
+
+.highlighted {
+  background-color: #f4cf53;
+  /* border-radius: 10%; */
+  display: inline-block;
+  padding: 07px 16px;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.dark-p {
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.a-tag {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+}
+
+.a-tag :hover {
+  color: #f4cf53;
+}
+
+a {
+  color: hsl(0, 0%, 7%);
+}
+
+.light-p {
+  font-weight: 400;
+  color: hsl(0, 0%, 42%);
+}
+
+.profile-pic img {
+  width: 15%;
+  float: left;
+  margin: 0;
+}
+
+.userName {
+  display: inline-block;
+  margin: 0;
+  margin-top: 15px;
+  margin-left: 14px;
+  font-weight: 800;
+  /* line-height: 150px;
+  text-align: center;
+  margin: 0; */
+}
